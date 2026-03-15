@@ -1,0 +1,26 @@
+{
+  "pluginName": "build-health-cache-updater",
+  "pluginRepository": "https://github.com/jenkinsci/build-health-cache-updater-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgrade_failed",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-07T09-31-35",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

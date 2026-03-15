@@ -1,0 +1,26 @@
+{
+  "pluginName": "tekton-client",
+  "pluginRepository": "https://github.com/jenkinsci/tekton-client-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "junit4",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": "2025-06-18T20-02-14",
+    "pullRequestUrl": "https://github.com/jenkinsci/tekton-client-plugin/pull/386",
+    "pullRequestStatus": "closed"
+  },
+  "appliedRecipes": []
+}

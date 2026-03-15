@@ -1,0 +1,26 @@
+{
+  "pluginName": "alibabacloud-ecs",
+  "pluginRepository": "https://github.com/jenkinsci/alibabacloud-ecs-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgrade_failed",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-02T18-17-17",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

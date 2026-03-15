@@ -1,0 +1,29 @@
+{
+  "pluginName": "custom-build-properties",
+  "pluginRepository": "https://github.com/jenkinsci/custom-build-properties-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "junit5",
+    "migrationStatus": "success",
+    "lastMigrationTimestamp": "2025-07-10T15-25-15",
+    "pullRequestUrl": "https://github.com/jenkinsci/custom-build-properties-plugin/pull/64",
+    "pullRequestStatus": "merged"
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+    "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5"
+  ]
+}

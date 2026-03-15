@@ -1,0 +1,36 @@
+{
+  "pluginName": "jackson3-api",
+  "pluginRepository": "https://github.com/jenkinsci/jackson3-api-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+    "lastTimestamp": "2026-01-14T11-03-07",
+    "pullRequestUrl": "https://github.com/jenkinsci/jackson3-api-plugin/pull/25",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": false,
+    "addressedRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "pendingRecipes": [],
+    "lastTimestamp": "2026-01-14T12-04-36"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+    "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+    "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+    "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+    "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version",
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version"
+  ]
+}

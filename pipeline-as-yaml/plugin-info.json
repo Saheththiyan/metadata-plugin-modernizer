@@ -1,0 +1,28 @@
+{
+  "pluginName": "pipeline-as-yaml",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-as-yaml-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version",
+    "lastTimestamp": "2025-11-02T11-00-41",
+    "pullRequestUrl": "https://github.com/jenkinsci/pipeline-as-yaml-plugin/pull/149",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pluginName": "buildtriggerbadge",
+  "pluginRepository": "https://github.com/jenkinsci/buildtriggerbadge-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-11T06-53-49",
+    "pullRequestUrl": "https://github.com/jenkinsci/buildtriggerbadge-plugin/pull/175",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "junit4",
+    "migrationStatus": "fail",
+    "lastMigrationTimestamp": "2025-07-27T16-08-02",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

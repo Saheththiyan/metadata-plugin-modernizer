@@ -1,0 +1,30 @@
+{
+  "pluginName": "junit-attachments",
+  "pluginRepository": "https://github.com/jenkinsci/junit-attachments-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+    "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+    "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion"
+  ]
+}

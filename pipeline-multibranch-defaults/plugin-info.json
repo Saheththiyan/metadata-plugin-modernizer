@@ -1,0 +1,26 @@
+{
+  "pluginName": "pipeline-multibranch-defaults",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-multibranch-defaults-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "junit4",
+    "migrationStatus": "fail",
+    "lastMigrationTimestamp": "2025-10-05T13-47-45",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}
