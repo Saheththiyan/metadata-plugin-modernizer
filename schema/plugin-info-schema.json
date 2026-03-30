@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Saheththiyan/metadata-plugin-modernizer/schema/plugin-info-schema.json",
+  "title": "Plugin Enriched Metadata",
+  "description": "Structured metadata record for a Jenkins plugin, combining migration history with data sourced from the Jenkins Update Center.",
+  "type": "object",
+  "required": [
+    "pluginName",
+    "pluginRepository",
+    "maintainers",
+    "parentPomStatus",
+    "deprecatedApiUsage",
+    "testFrameworkVersion",
+    "appliedRecipes"
+  ],
+  "properties": {
+    "pluginName": {
+      "type": "string",
+      "description": "Short identifier of the Jenkins plugin (e.g. 'extra-tool-installers')."
+    },
+    "pluginRepository": {
+      "type": "string",
+      "description": "URL of the plugin's Git repository."
+    },
+    "maintainers": {
+      "type": "array",
+      "description": "List of current plugin maintainers sourced from the Jenkins Update Center.",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Jenkins developer ID."
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name of the maintainer."
+          },
+          "email": {
+            "type": "string",
+            "description": "E-mail address of the maintainer (may be empty)."
+          }
+        }
+      }
+    },
+    "parentPomStatus": {
+      "type": "object",
+      "description": "Status of the plugin's parent POM based on modernization history.",
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["upgraded", "upgrade_failed", "upgrade_pending", "unknown"],
+          "description": "Result of the latest parent-POM upgrade attempt."
+        },
+        "lastRecipe": {
+          "type": ["string", "null"],
+          "description": "Recipe ID of the most recent parent-POM migration."
+        },
+        "lastTimestamp": {
+          "type": ["string", "null"],
+          "description": "Timestamp of the most recent parent-POM migration."
+        },
+        "pullRequestUrl": {
+          "type": "string",
+          "description": "URL of the pull request created for the parent-POM upgrade."
+        },
+        "pullRequestStatus": {
+          "type": "string",
+          "description": "Merge status of the parent-POM upgrade pull request."
+        }
+      }
+    },
+    "deprecatedApiUsage": {
+      "type": "object",
+      "description": "Summary of deprecated API usage and remediation status.",
+      "required": ["hasDeprecatedApis", "addressedRecipes", "pendingRecipes"],
+      "properties": {
+        "hasDeprecatedApis": {
+          "type": ["boolean", "null"],
+          "description": "True when deprecated APIs are known to still be present; null when no relevant migration has been attempted."
+        },
+        "addressedRecipes": {
+          "type": "array",
+          "description": "Recipe IDs that have been successfully applied to remove deprecated API usage.",
+          "items": { "type": "string" }
+        },
+        "pendingRecipes": {
+          "type": "array",
+          "description": "Recipe IDs that attempted to address deprecated APIs but have not yet succeeded.",
+          "items": { "type": "string" }
+        },
+        "lastTimestamp": {
+          "type": ["string", "null"],
+          "description": "Timestamp of the most recent deprecated-API migration attempt."
+        }
+      }
+    },
+    "testFrameworkVersion": {
+      "type": "object",
+      "description": "Test framework version in use based on modernization history.",
+      "required": ["version"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "enum": ["junit5", "junit4", "unknown"],
+          "description": "Detected test framework version."
+        },
+        "migrationStatus": {
+          "type": ["string", "null"],
+          "description": "Status of the JUnit 5 migration (success / fail / pending)."
+        },
+        "lastMigrationTimestamp": {
+          "type": ["string", "null"],
+          "description": "Timestamp of the most recent test-framework migration attempt."
+        },
+        "pullRequestUrl": {
+          "type": "string",
+          "description": "URL of the pull request created for the test-framework migration."
+        },
+        "pullRequestStatus": {
+          "type": "string",
+          "description": "Merge status of the test-framework migration pull request."
+        }
+      }
+    },
+    "appliedRecipes": {
+      "type": "array",
+      "description": "Unique IDs of all modernization recipes applied successfully to this plugin.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

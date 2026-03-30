@@ -1,0 +1,30 @@
+{
+  "pluginName": "gitlab-oauth",
+  "pluginRepository": "https://github.com/jenkinsci/gitlab-oauth-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": false,
+    "addressedRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "pendingRecipes": [],
+    "lastTimestamp": "2026-01-16T16-02-03"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+  ]
+}

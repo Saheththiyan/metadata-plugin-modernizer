@@ -1,0 +1,26 @@
+{
+  "pluginName": "ca-mat-performance-benchmarking-by-broadcom",
+  "pluginRepository": "https://github.com/jenkinsci/ca-mat-performance-benchmarking-by-broadcom-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-06-13T14-12-37",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

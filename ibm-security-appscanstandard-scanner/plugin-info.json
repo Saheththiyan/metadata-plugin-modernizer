@@ -1,0 +1,26 @@
+{
+  "pluginName": "ibm-security-appscanstandard-scanner",
+  "pluginRepository": "https://github.com/jenkinsci/ibm-security-appscanstandard-scanner-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

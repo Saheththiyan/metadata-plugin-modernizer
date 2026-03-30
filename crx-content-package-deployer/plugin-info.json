@@ -1,0 +1,26 @@
+{
+  "pluginName": "crx-content-package-deployer",
+  "pluginRepository": "https://github.com/jenkinsci/crx-content-package-deployer-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-06-13T15-26-52",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

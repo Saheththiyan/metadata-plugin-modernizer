@@ -1,0 +1,26 @@
+{
+  "pluginName": "percentage-du-node-column",
+  "pluginRepository": "https://github.com/jenkinsci/percentage-du-node-column-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

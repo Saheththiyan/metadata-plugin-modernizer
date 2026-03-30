@@ -1,0 +1,26 @@
+{
+  "pluginName": "cmakebuilder",
+  "pluginRepository": "https://github.com/jenkinsci/cmakebuilder-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-06-13T14-39-36",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

@@ -1,0 +1,28 @@
+{
+  "pluginName": "ascentialtest-cmd-line",
+  "pluginRepository": "https://github.com/jenkinsci/ascentialtest-cmd-line-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-02T19-02-14",
+    "pullRequestUrl": "https://github.com/jenkinsci/ascentialtest-cmd-line-plugin/pull/9",
+    "pullRequestStatus": "open"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

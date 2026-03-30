@@ -1,0 +1,26 @@
+{
+  "pluginName": "cloudbees-feature-management",
+  "pluginRepository": "https://github.com/jenkinsci/cloudbees-feature-management-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-06-13T14-29-53",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

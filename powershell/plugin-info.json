@@ -1,0 +1,30 @@
+{
+  "pluginName": "powershell",
+  "pluginRepository": "https://github.com/jenkinsci/powershell-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": false,
+    "addressedRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "pendingRecipes": [],
+    "lastTimestamp": "2026-01-15T16-33-23"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+  ]
+}

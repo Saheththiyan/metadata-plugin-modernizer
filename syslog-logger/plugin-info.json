@@ -1,0 +1,28 @@
+{
+  "pluginName": "syslog-logger",
+  "pluginRepository": "https://github.com/jenkinsci/syslog-logger-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-07T08-01-28",
+    "pullRequestUrl": "https://github.com/jenkinsci/syslog-logger-plugin/pull/2",
+    "pullRequestStatus": "open"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

@@ -1,0 +1,52 @@
+name: Enrich Plugin Data
+
+on:
+  schedule:
+    - cron: '30 0 * * *'  # Runs at 00:30 UTC every day (after consolidation at 00:05)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enrich-plugin-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run enrichment script
+        run: python scripts/enrich_plugin_data.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: enrich plugin data with maintainers and derived metadata"
+          title: "chore: Enrich plugin data with maintainers and derived metadata"
+          body: |
+            Automated update of enriched plugin metadata.
+
+            Each plugin directory now contains a `plugin-info.json` file with:
+            - **Plugin name**
+            - **Maintainers** (fetched from the Jenkins Update Center)
+            - **Parent POM status** (derived from migration records)
+            - **Deprecated API usage** (derived from migration records)
+            - **Test framework version** (derived from migration records)
+            - **Applied modernization recipes**
+
+            A combined `reports/plugin-dataset.json` aggregates this data for
+            all plugins.
+          branch: "auto/enrich-plugin-data"
+          base: main
+          delete-branch: true

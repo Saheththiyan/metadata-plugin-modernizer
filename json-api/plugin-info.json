@@ -1,0 +1,36 @@
+{
+  "pluginName": "json-api",
+  "pluginRepository": "https://github.com/jenkinsci/json-api-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+    "lastTimestamp": "2026-01-14T11-13-16",
+    "pullRequestUrl": "https://github.com/jenkinsci/json-api-plugin/pull/103",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": false,
+    "addressedRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "pendingRecipes": [],
+    "lastTimestamp": "2026-01-14T12-13-54"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+    "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+    "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+    "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+    "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+    "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion"
+  ]
+}

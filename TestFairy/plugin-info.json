@@ -1,0 +1,29 @@
+{
+  "pluginName": "TestFairy",
+  "pluginRepository": "https://github.com/jenkinsci/testfairy-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-28T18-02-28",
+    "pullRequestUrl": "https://github.com/jenkinsci/testfairy-plugin/pull/40",
+    "pullRequestStatus": "open"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava8CoreVersion"
+  ]
+}

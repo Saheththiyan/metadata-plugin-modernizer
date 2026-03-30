@@ -1,0 +1,28 @@
+{
+  "pluginName": "katalon",
+  "pluginRepository": "https://github.com/jenkinsci/katalon-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-09-05T14-25-26",
+    "pullRequestUrl": "https://github.com/jenkinsci/katalon-plugin/pull/36",
+    "pullRequestStatus": "open"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "pluginName": "log-parser",
+  "pluginRepository": "https://github.com/jenkinsci/log-parser-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": true,
+    "addressedRecipes": [],
+    "pendingRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "lastTimestamp": "2026-01-19T16-30-37"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

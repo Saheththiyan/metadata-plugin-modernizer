@@ -1,0 +1,26 @@
+{
+  "pluginName": "openstack-cloud",
+  "pluginRepository": "https://github.com/jenkinsci/openstack-cloud-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgrade_failed",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-06-27T20-16-23",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

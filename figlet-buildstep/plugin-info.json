@@ -1,0 +1,29 @@
+{
+  "pluginName": "figlet-buildstep",
+  "pluginRepository": "https://github.com/jenkinsci/figlet-buildstep-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-21T16-53-16",
+    "pullRequestUrl": "https://github.com/jenkinsci/figlet-buildstep-plugin/pull/110",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

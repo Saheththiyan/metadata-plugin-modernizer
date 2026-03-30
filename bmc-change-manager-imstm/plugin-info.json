@@ -1,0 +1,30 @@
+{
+  "pluginName": "bmc-change-manager-imstm",
+  "pluginRepository": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-15T13-36-22",
+    "pullRequestUrl": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/pull/23",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+    "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

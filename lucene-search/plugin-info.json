@@ -1,0 +1,26 @@
+{
+  "pluginName": "lucene-search",
+  "pluginRepository": "https://github.com/jenkinsci/lucene-search-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeBomVersion",
+    "lastTimestamp": "2025-06-17T18-29-24",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": []
+}

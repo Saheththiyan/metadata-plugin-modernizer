@@ -1,0 +1,28 @@
+{
+  "pluginName": "azure-event-grid-notifier",
+  "pluginRepository": "https://github.com/jenkinsci/azure-event-grid-notifier-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-07-02T20-17-31",
+    "pullRequestUrl": "https://github.com/jenkinsci/azure-event-grid-notifier-plugin/pull/8",
+    "pullRequestStatus": "open"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pluginName": "job-import-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/job-import-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "unknown",
+    "lastRecipe": null,
+    "lastTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": false,
+    "addressedRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "pendingRecipes": [],
+    "lastTimestamp": "2026-01-19T13-58-32"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+  ]
+}

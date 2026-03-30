@@ -1,0 +1,36 @@
+{
+  "pluginName": "artifactory-client-api",
+  "pluginRepository": "https://github.com/jenkinsci/artifactory-client-api-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgraded",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+    "lastTimestamp": "2026-01-14T10-31-51",
+    "pullRequestUrl": "https://github.com/jenkinsci/artifactory-client-api-plugin/pull/86",
+    "pullRequestStatus": "merged"
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": false,
+    "addressedRecipes": [
+      "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText"
+    ],
+    "pendingRecipes": [],
+    "lastTimestamp": "2026-01-14T11-27-21"
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+    "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+    "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+    "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+    "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+    "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion"
+  ]
+}

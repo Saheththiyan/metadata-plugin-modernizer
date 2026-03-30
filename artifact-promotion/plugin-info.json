@@ -1,0 +1,30 @@
+{
+  "pluginName": "artifact-promotion",
+  "pluginRepository": "https://github.com/jenkinsci/artifact-promotion-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgrade_failed",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-10-30T12-18-45",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+    "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+    "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile"
+  ]
+}

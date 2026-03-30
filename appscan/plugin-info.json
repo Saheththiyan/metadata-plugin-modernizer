@@ -1,0 +1,29 @@
+{
+  "pluginName": "appscan",
+  "pluginRepository": "https://github.com/jenkinsci/appscan-plugin.git",
+  "maintainers": [],
+  "parentPomStatus": {
+    "status": "upgrade_failed",
+    "lastRecipe": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "lastTimestamp": "2025-10-03T19-32-31",
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "deprecatedApiUsage": {
+    "hasDeprecatedApis": null,
+    "addressedRecipes": [],
+    "pendingRecipes": [],
+    "lastTimestamp": null
+  },
+  "testFrameworkVersion": {
+    "version": "unknown",
+    "migrationStatus": null,
+    "lastMigrationTimestamp": null,
+    "pullRequestUrl": "",
+    "pullRequestStatus": ""
+  },
+  "appliedRecipes": [
+    "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+    "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile"
+  ]
+}
